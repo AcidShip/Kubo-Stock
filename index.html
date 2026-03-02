@@ -67,6 +67,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/fireba
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kubo Stock</title>
+    <div id="loginForm">
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Mot de passe">
+  <button id="loginBtn">Se connecter</button>
+</div>
+
+<div id="dashboard" style="display:none">
+  <h2>Dashboard Stock</h2>
+  <!-- Ici tu mets le formulaire pour ajouter/modifier des produits -->
+</div>
   </head>
   <body>
     <div id="root"></div>
